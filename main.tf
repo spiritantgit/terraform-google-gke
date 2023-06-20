@@ -1,5 +1,5 @@
 module "gke_cluster" {
-  source         = "github.com/spiritant/terraform-google-gke"
+  source         = "github.com/spiritantgit/terraform-google-gke.git"
   GOOGLE_REGION  = var.GOOGLE_REGION
   GOOGLE_PROJECT = var.GOOGLE_PROJECT
   GKE_NUM_NODES  = var.GKE_NUM_NODES
